@@ -2,7 +2,7 @@
 
 #include "ErrorLogger.h"
 
-ErrorLogger ELog(13); // Create the ErrorLogger object with an LED in pin 13 to indicate when it has occured an error.
+ErrorLogger ELog(13, 12); // Create the ErrorLogger object with an LED in pin 13 to indicate when it has occured an error.
 
 void setup() {
 	Serial.begin(9600);
